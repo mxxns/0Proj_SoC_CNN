@@ -4,4 +4,6 @@ CIFAR10/*
 config/*
 IMX219/*
 bash_mentor_24
-*.py
+tpu_lib_fixpoint.py
+tpu_lib_param.py
+tpu_lib_fp_test.py
