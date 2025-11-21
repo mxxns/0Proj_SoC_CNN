@@ -35,6 +35,6 @@ def flatten(x):
 def display_img(img, title):
     plt.figure()
     plt.imshow(img)
-    plt.title(f"Ceci est un {title} ?")
+    plt.title(f"{title} ?")
     plt.axis("off")
     plt.show()
