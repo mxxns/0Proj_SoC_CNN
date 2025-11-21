@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 def load_cifar10_image(batch_path, index):
     record_size = 1 + 3072
