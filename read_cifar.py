@@ -30,3 +30,10 @@ def normalize_image(img):
 # Makes any Matix linear
 def flatten(x):
     return x.reshape(-1)
+
+def display_img(img, title):
+    plt.figure()
+    plt.imshow(img)
+    plt.title(f"Ceci est un {title} ?")
+    plt.axis("off")
+    plt.show()
