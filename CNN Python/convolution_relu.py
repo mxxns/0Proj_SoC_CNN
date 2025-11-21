@@ -36,12 +36,12 @@ def conv2d_single(x, w, b, stride=1, padding="SAME"):
 
     return out
 
-def relu(in):
-    H_in, W_in, C_in = in.shape
-    out = np.zeros((H_in, W_in, C_in), dtype=np.float32)
-    for y in range(H_in)
-        for x in range(W_in)
-            for c in range(C_in)
-                out[y, x, c] = np.max(0.0, in[y, x, c])
+def relu(input):
+    H_in, W_in, C_in = input.shape
+    output = np.zeros((H_in, W_in, C_in), dtype=np.float32)
+    for y in range(H_in):
+        for x in range(W_in):
+            for c in range(C_in):
+                output[y, x, c] = np.maximum(0.0, input[y, x, c])
 
-    return out
+    return output
